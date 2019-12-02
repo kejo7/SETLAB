@@ -23,7 +23,7 @@ input[type=email]{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-  
+
 input[type=radio]{
     margin-top: -1px;
     vertical-align: middle;
@@ -34,7 +34,7 @@ input[type=radio]{
     font-family: 'Roboto Slab', serif;
     padding-left: center;
     text-align: center;
-    line-height: 150%; 
+    line-height: 150%;
 }
 
 fieldset{
@@ -47,18 +47,14 @@ label{
     font-family: 'Roboto Slab', serif;
 }
 
-.imagem-contato{
-    border-style: solid;
-    border-color: #000000;
-    border-width: 0.18em;
-    float: right;
-    margin-right: 8%;
-}
-
 textarea{
     font-family: 'Roboto Slab', serif;
 }
 
 input[type=submit]{
     font-family: 'Roboto Slab', serif;
+}
+
+input[type=file]{
+    size: 1%;
 }
