@@ -223,10 +223,12 @@ q{
 
 .group{
      zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    margin-left:2%;
+    margin-right:2%;
 }
 
 .edit1{
-    width:455px;
+    width:32%;
     float:left;
 }
 
@@ -239,42 +241,36 @@ q{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    transform: translate(20%, -20%);
-    width: 300px;
+    width: 90%;
 }
 
 .edit4{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    transform: translate(29%, -24%);
-    width: 300px;
+    width: 90%;
 }
 
 .edit5{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    transform: translate(20%, -20%);
-    width: 300px;
+    width: 90%;
 }
 
 .edit6{
     font-weight: bold;
     text-align: center;
-    transform: translate(7%, 20%);
 }
 
 .edit7{
     font-weight: bold;
     text-align: center;
-    transform: translate(7%, 0%);
 }
 
 .edit8{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    transform: translate(29%, -15%);
-    width: 300px;
+    width: 90%;
 }
