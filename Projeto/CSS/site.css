@@ -155,7 +155,7 @@ q{
     border-width:2px;
     width: 712px;
     height: 491px;
-    background-image: url(https://i.ibb.co/H7B00NT/foto34.jpg);
+    background-image: url("~/Imagens/foto34.jpg");
     float: left;
 }
 
