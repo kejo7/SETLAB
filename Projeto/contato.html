@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="site.css">
+        <link rel="stylesheet" href="contato.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="adaptar.css">
+        <script src="https://kit.fontawesome.com/382694a6fb.js" crossorigin="anonymous"></script>
+
+        <title>SETLAB - Contato</title>
+
+        <link rel="icon" href="logo1.jpg">
+    </head>
+
+<body>
+        <aside class="menu">
+                <nav>
+                    <ul>
+                        <div class="barra_menu">
+                            <li><a class="active" href="contato.html">Contato</a></li>
+                            <li><a href="projetos.html">Projetos</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="inicial.html">Página Inicial</a></li>
+                        </div>
+                        <div class="barra_logo">
+                            <li><img id="logo" src="logo2.jpg"/></li>
+                        </div>
+                    </ul>
+                </nav>
+            </aside>
+                
+    <main>
+        <section>
+            <h1>CONTATO</h1>
+        </section>
+        <div class="texto">
+            <p>Preencha o formulário abaixo para entrar em contato com a nossa equipe. Em até 1 dia útil iremos responder.</p>
+        </div>
+        <div class="formulario">
+            <form action="contato.html">
+                <fieldset>
+                    <legend>DADOS PESSOAIS:</legend>
+                    <br>
+                    <label for="nome">Nome </label>
+                        <input type="text" id="nome" name="nome" placeholder="Nome" autofocus required>
+                    <br>
+                    <label for="email">E-Mail</label>
+                        <input type="email" id="email" name="email" placeholder="email@email.com.br" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>ASSUNTO:</legend>
+                    <br>
+                        <input type="radio" name="opcao" value="orcamento">  Orçamento
+                        <br>
+                        <input type="radio" name="opcao" value="curriculo">  Currículo
+                        <br>
+                        <input type="radio" name="opcao" value="sug/rec">  Sugestões/Reclamações
+                        <br>
+                        <input type="radio" name="opcao" value="outros">  Outros
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>MENSAGEM:</legend>
+                    <br>
+                        <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" rows="16" cols="50"></textarea>
+                        <br>
+                        <br>
+                </fieldset>
+                <fieldset>
+                    <legend>ADICIONAR ANEXOS:</legend>
+                    <br>
+                        <input type="hidden" name="MAX_FILE_SIZE" value="4194304"/>
+                        <input type="file"/>
+                    </fieldset>
+                    <br>
+                        <input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="send" value="Limpar">
+            </form> 
+        </div>
+    </main>
+
+    <footer>
+        <div class="barra_contato1">
+            R. Pedro Vicente, 625 - Canindé <br> 01109-010 <br> São Paulo - SP
+        </div>
+        
+        <div class="barra_contato2">
+            <br>(11) 2763-7520<br><br>
+        </div>
+        
+        <div class="barra_links">
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a class="cor_footer" href="https://www.facebook.com" target="blanck" alt="Facebook" title="Facebook"><i class="fab fa-facebook-f fa-2x" style="margin-right: 0.5em"></i></a>
+            <a class="cor_footer" href="https://www.instagram.com" target="blanck"alt="Instagram" title="Instagram"><i class="fab fa-instagram fa-2x"style="margin-right: 0.5em"></i></a>
+            <a class="cor_footer" href="https://www.twitter.com" target="blanck" alt="Twitter" title="Twitter"><i class="fab fa-twitter fa-2x"style="margin-right: 0.5em"></i></a>
+        </div>
+                        
+        <div class="barra_nome">
+            <!--@--> &copy; SETLAB 2019
+        </div>
+    </footer>           
+</body>
+</html>
