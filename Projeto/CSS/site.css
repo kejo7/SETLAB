@@ -89,10 +89,9 @@ footer{
 
 .barra_contato1{
     background-color: rgb(24, 24, 24);
-    width: 48.5% !important;
+    width: 50% !important;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    padding-left: 0.5em;
     font-size: 1.1em;
     font-family: 'Optima';
     color: white;
@@ -104,10 +103,9 @@ footer{
 
 .barra_contato2{
     background-color: rgb(24, 24, 24);
-    width: 48% !important;
+    width: 50% !important;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    padding-right: 0.5em;
     font-size: 1.1em;
     font-family: 'Optima';
     color: white;
