@@ -117,27 +117,34 @@
     }
 
     .edit8{
-        transform: translate(23%, -10%);
+        transform: 0;
     }
 
     .edit4{
-        transform: translate(23%, -15%);
+        transform: 0;
     }
 
     .edit3{
-        transform: translate(23%, -12%);
+        transform: 0;
     }
 
     .edit7{
-        transform: translate(2.5%);
+        transform: 0;
     }
 
     .edit6{
-        transform: translate(3%);
+        transform: 0;
     }
 
     .edit2{
-        transform: translate(4%);
+        transform:0;
+    }
+    
+    .edit1{
+        width: 90%;
+        float:none;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .centered2{
