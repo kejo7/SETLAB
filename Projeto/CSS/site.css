@@ -1,0 +1,266 @@
+body{
+    background-color: #E4E4E4;
+    grid-template-columns: 100%;
+}
+
+.texto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    text-align: center;
+}
+
+.titulo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: left;
+}
+
+h1{
+    color: white;
+    background-color: rgb(36, 36, 36);
+    font-family: 'Copperplate';
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 2em;
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    font-weight: normal;
+    width: 100%;
+    margin: 0;
+}
+
+h3{
+    color: white;
+    background-color: rgb(36, 36, 36);
+    font-family: 'Copperplate';
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    font-weight: normal;
+    width: 100%;
+    margin: 0;
+}
+  
+p{
+    color: #000000;
+    font-family: 'Helvetica', serif;
+    font-size: 1.15em;
+    line-height: 1.6em;
+    text-align: center;
+    padding: 3%;
+}
+
+.imagem{
+    text-align: center;
+}
+
+footer{
+    grid-area: ft;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.barra_links{
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    margin: 0;
+}
+
+.barra_nome{
+    background-color: black;
+    width: 100%;
+    font-size: 0.75em;
+    font-family: 'Optima';
+    color: white;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.barra_contato1{
+    background-color: rgb(24, 24, 24);
+    width: 49%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    font-size: 1.1em;
+    font-family: 'Optima';
+    color: white;
+    margin: 0;
+    text-align: left;
+    float:left;
+    font-weight: normal;
+}
+
+.barra_contato2{
+    background-color: rgb(24, 24, 24);
+    width: 49%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1.1em;
+    font-family: 'Optima';
+    color: white;
+    margin: 0;
+    text-align: right;
+    float:left;
+    font-weight: normal;
+}
+
+.barra_logo img{
+    position: absolute;
+    top: 1%; 
+    left: 1%;
+}
+
+.barra_menu{
+    width:100%;
+}
+
+.cor_link{
+    color: #0077ff;
+}
+
+.cor_footer{
+    color: #969696;
+}
+
+hr{
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid #3c4d5896;
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+q{
+    font-style: italic;
+    color: #444444;
+}
+
+#DivLateral{
+    position:relative;
+    border-width:2px;
+    width: 712px;
+    height: 491px;
+    background-image: url(foto34.jpg);
+    float: left;
+}
+
+#DivLateral2{
+    position:relative;
+    border-width:2px;
+    width: 712px;
+    height: 491px;
+    background-image: url(foto37.jpg);
+    float: left;
+}
+
+#DivA{
+    position: relative;
+    border-width:2px;
+    width: 713px;
+    height: 491px;
+    left:0px;
+    background-image: url(foto35.jpg);
+    float: left;
+}
+
+#DivA2{
+    position: relative;
+    border-width:2px;
+    width: 713px;
+    height: 491px;
+    left:0px;
+    background-image: url(foto36.jpg);
+    float: left;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    font-weight: normal;
+}
+
+.group:before, .group:after{
+    content: "";
+    display: table;
+} 
+
+.group:after{
+    clear: both;
+}
+
+.group{
+     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.edit1{
+    width:455px;
+    float:left;
+}
+
+.edit2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.edit3{
+    font-weight: normal;
+    text-align: justify;
+    font-size: 15px;
+    transform: translate(20%, -20%);
+    width: 300px;
+}
+
+.edit4{
+    font-weight: normal;
+    text-align: justify;
+    font-size: 15px;
+    transform: translate(29%, -24%);
+    width: 300px;
+}
+
+.edit5{
+    font-weight: normal;
+    text-align: justify;
+    font-size: 15px;
+    transform: translate(20%, -20%);
+    width: 300px;
+}
+
+.edit6{
+    font-weight: bold;
+    text-align: center;
+    transform: translate(7%, 0%);
+}
+
+.edit7{
+    font-weight: bold;
+    text-align: center;
+    transform: translate(7%, 0%);
+}
+
+.edit8{
+    font-weight: normal;
+    text-align: justify;
+    font-size: 15px;
+    transform: translate(29%, -15%);
+    width: 300px;
+}
