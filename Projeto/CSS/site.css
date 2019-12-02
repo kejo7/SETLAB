@@ -241,21 +241,27 @@ q{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    width: 90%;
+    width: 94%;
+    margin-left:3%;
+    margin-right:3%;
 }
 
 .edit4{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    width: 90%;
+    width: 94%;
+    margin-left:3%;
+    margin-right:3%;
 }
 
 .edit5{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    width: 90%;
+    width: 94%;
+    margin-left:3%;
+    margin-right:3%;
 }
 
 .edit6{
@@ -272,5 +278,7 @@ q{
     font-weight: normal;
     text-align: justify;
     font-size: 15px;
-    width: 90%;
+    width: 94%;
+    margin-left:3%;
+    margin-right:3%;
 }
