@@ -4,38 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="https://kit.fontawesome.com/382694a6fb.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
-        <title>SETLAB - Página Inicial</title>
+        <link rel="stylesheet" href="./CSS/reset.css">
         <link rel="stylesheet" href="./CSS/site.css">
+        <link rel="stylesheet" href="./CSS/adaptar.css">
+        <link rel="stylesheet" href="./CSS/slider.css">
+        <link rel="stylesheet" href="./CSS/menu.css">
         <script type="text/javascript" src="./JS/slider.js"></script>
+        <script src="https://kit.fontawesome.com/382694a6fb.js" crossorigin="anonymous"></script>
+
+        <title>SETLAB - Página Inicial</title>
+
         <link rel="icon" href="./Imagens/logo1.jpg">
     </head>
     
-    <body class="grid-container">
+    <body>
         <aside class="menu">
             <nav>
                 <ul>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="filmes_series_jogos.html">Projetos</a></li>
-                    <li><a href="blog.html">Sobre</a></li>
-                    <li><a class="active" href="index.html">Página Inicial</a></li>
-                    <li><text>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            </text></li>
-                    <li><img src="./Imagens/logo2.jpg"/></li>
+                    <div class="barra_menu">
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a class="active" href="inicial.html">Página Inicial</a></li>
+                    </div>
+                    <div class="barra_logo">
+                        <li><img id="logo" src="./Imagens/logo2.jpg"/></li>
+                    </div>
                 </ul>
             </nav>
         </aside>
@@ -58,34 +52,42 @@
                     <span class="trs prev"></span>
                  
                     <div id="slider">
-                        <a href="#" class="trs"><img src="./Imagens/foto1.jpg" alt="Existe muito mais por trás de uma identidade 
-                            visual bonita. Como a sua marca se expressa traduz a “razão de ser”, cada detalhe é 
-                            responsável por revelara proposta de valor do negócio." /></a>
-                        <a href="#" class="trs"><img src="./Imagens/foto2.jpg" alt="Dany" /></a>
-                        <a href="#" class="trs"><img src="./Imagens/foto3.jpg" alt="Dany, seus pets e um anão" /></a>
+                        <a class="trs"><img src="./Imagens/foto14.png" alt="Sua marca representa quem você é, e existe 
+                                                        muito mais por trás disso" /></a>
+                        <a class="trs"><img src="./Imagens/foto15.png" alt="Desenvolvimento Full Stack para tornar projetos realidade" /></a>
+                        <a class="trs"><img src="./Imagens/foto16.png" alt="Trabalhamos com inteligência de dados para performance
+                                                         digital" /></a>
                     </div> 
                     <figcaption></figcaption>
                 </figure>
             </section>
 
             <section>
-                    <h3>OPINIÕES</h3>
+                <h3>OPINIÕES</h3>
             </section>
-            <section>
-                <figure>
-                    <span class="trs next"></span>
-                    <span class="trs prev"></span>
-                     
-                    <div id="slider">
-                        <a href="#" class="trs"><img src="./Imagens/foto1.jpg" alt="Existe muito mais por trás de uma identidade 
-                            visual bonita. Como a sua marca se expressa traduz a “razão de ser”, cada detalhe é 
-                            responsável por revelara proposta de valor do negócio." /></a>
-                        <a href="#" class="trs"><img src="./Imagens/foto2.jpg" alt="Dany" /></a>
-                        <a href="#" class="trs"><img src="./Imagens/foto3.jpg" alt="Dany, seus pets e um anão" /></a>
-                    </div> 
-                    <figcaption></figcaption>
-                </figure>
-            </section>
+
+            <div class="group">
+            <div class="edit1">
+                <p class="edit2">JORGE - CEO do Da Horta Express</p>
+                <br>
+                <p class="edit3"><bold>Obrigado!</bold><br>Gostaria de agradecer à toda equipe da SETLAB pelo trabalho desenvolvido.
+                    Ficamos muito satisfeitos e sempre nos surpreendendo.</p>
+            </div>
+
+            <div class="edit1">
+                <p class="edit6">CAIO - CEO do CheckBeer</p>
+                <br>
+                <p class="edit4"><bold>Não é um serviço, é uma parceria!</bold><br>Nossos clientes ficaram muito bem surpreendidos com a 
+                    usabilidade do sistema criado pela SETLAB.</p>
+            </div>
+
+            <div class="edit1">
+                <p class="edit7">EDUARDO - CEO da C4 GAMING</p>
+                <br>
+                <p class="edit8"><bold>Ótimo!</bold><br>Desenvolver a plataforma com a SETLAB foi uma experiência de muito aprendizado.
+                    Além de entregar um produto de alta qualidade, eles trouxeram insights e ajudaram a lapidar a minha ideia inicial.</p>
+            </div>
+            </div>
 
         </main> 
         
