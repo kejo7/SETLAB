@@ -1,0 +1,50 @@
+.botao2{
+    align-items: center;
+    width: 100%;
+}
+
+.botao{
+	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+	box-shadow: inset 0px 0px 0px 0px #ffffff;
+	background: -webkit-gradient (linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background: -moz-linear-gradient (center top, #ededed 5%, #dfdfdf 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color: #5c5c5c;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	text-indent: 0;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	color: #000000;
+	font-family: Times New Roman;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	height: 42px;
+	line-height: 42px;
+	width: 196px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.botao:hover{
+	background: #5c5c5c)
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5c5c5c', endColorstr='#000000');
+    background-color:#9c9c9c;
+}
+
+.botao:active{
+	position:relative;
+	top:1px;
+}

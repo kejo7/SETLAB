@@ -1,0 +1,135 @@
+@media only screen and (max-width: 600px) {
+
+    p{
+        font-size: 1em;
+        padding: 3%;
+    }
+
+    .texto{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        text-align: justify;
+    } 
+   
+    .imagem{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tamanho-conteudo{
+        width: 80%;
+    }
+
+    .barra_links{
+        padding-top: 4.55em;
+    }
+
+    .barra_contato1{
+        width: 50%;
+        float:left;
+        font-size: 1em;
+    }
+    
+    .barra_contato2{
+        width: 50%;
+        float:left;
+        font-size: 1em;
+    }
+
+    .barra_logo img{
+        height:40px;
+        width:85px;
+    }
+
+    figcaption{
+        font-size: 1px; 
+        text-align: center;
+        width:100%;
+    }
+
+    .formulario{
+        line-height: 150%;
+    }
+
+    #DivLateral{
+        position:relative;
+        border-width:2px;
+        width: 100%;
+        height: 300px;
+        background-image: url(foto34.jpg);
+        background-size:490px 300px; 
+        background-repeat:no-repeat;
+        float: left;
+    }
+    
+    #DivLateral2{
+        position:relative;
+        border-width:2px;
+        width: 100%;
+        height: 300px;
+        background-image: url(foto37.jpg);
+        background-size:490px 300px; 
+        background-repeat:no-repeat;
+        float: left;
+    }
+
+    #DivA{
+        position: relative;
+        border-width:2px;
+        width: 100%;
+        height: 300px;
+        left:0px;
+        background-image: url(foto35.jpg);
+        background-size:490px 300px; 
+        background-repeat:no-repeat;
+        float: left;
+    }
+    
+    #DivA2{
+        position: relative;
+        border-width:2px;
+        width: 100%;
+        height: 300px;
+        left:0px;
+        background-image: url(foto36.jpg);
+        background-size:490px 300px; 
+        background-repeat:no-repeat;
+        float: left;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 80%;
+        left: 35%;
+        transform: translate(-25%, -50%);
+        color: white;
+        background-color: black;
+        font-weight: normal;
+    }
+
+    .edit8{
+        transform: translate(23%, -10%);
+    }
+
+    .edit4{
+        transform: translate(23%, -15%);
+    }
+
+    .edit3{
+        transform: translate(23%, -12%);
+    }
+
+    .edit7{
+        transform: translate(2.5%);
+    }
+
+    .edit6{
+        transform: translate(3%);
+    }
+
+    .edit2{
+        transform: translate(4%);
+    }
+}
