@@ -51,10 +51,6 @@ textarea{
     font-family: 'Roboto Slab', serif;
 }
 
-input[type=submit]{
-    font-family: 'Roboto Slab', serif;
-}
-
 input[type=file]{
     size: 1%;
 }
